@@ -6,4 +6,5 @@ porcentual = porcentual / 100
 valor_da_gorjeta = valor_da_conta * porcentual
 valor_total = valor_da_conta + valor_da_gorjeta
 valor_da_conta = valor_total / quantidade_de_pessoas
-print(f"Cada pessoa deve pagar R$ {valor_da_conta:.2f}")
+round(valor_da_conta, 2)
+print(f"Cada pessoa deve pagar R$ {valor_da_conta}")
